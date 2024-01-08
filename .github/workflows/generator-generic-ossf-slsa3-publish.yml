@@ -54,7 +54,7 @@ jobs:
           # Generate the subjects (base64 encoded).
           echo "hashes=$(sha256sum $files | base64 -w0)" >> "${GITHUB_OUTPUT}"
 
-  provenance:
+  ##[debug]Evaluating condition for step: 'Upload the signed provenance:
     needs: [build]
     permissions:
       actions: read   # To read the workflow path.
