@@ -39,7 +39,7 @@ Inside the editor, open `src/extension.ts` and press `kb(workbench.action.debug.
 Run the **Hello World** command from the Command Palette (`kb(workbench.action.showCommands)`) in the new window:
 
 <video loop muted playsinline controls title="Launch your first VS Code extension video">
-  <source src="/api/get-started/your-first-extension/launch.mp4" type="video/mp4">
+  <source src=  type=  "video/mp4">
 </video>
 
 You should see the `Hello World from HelloWorld!` notification showing up. Success!
@@ -55,24 +55,22 @@ Let's make a change to the message:
 You should see the updated message showing up.
 
 <video loop muted playsinline controls title="Reload VS Code extension video">
-  <source src="/api/get-started/your-first-extension/reload.mp4" type="video/mp4">
+  <source src" type="video/mp4">
 </video>
 
 Here are some ideas for things for you to try:
 
 - Give the **Hello World** command a new name in the Command Palette.
-- [Contribute](/api/references/contribution-points) another command that displays current time in an information message. Contribution points are static declarations you make in the `package.json` [Extension Manifest](/api/references/extension-manifest) to extend VS Code, such as adding commands, menus, or keybindings to your extension.
-- Replace the `vscode.window.showInformationMessage` with another [VS Code API](/api/references/vscode-api) call to show a warning message.
+**- [Contribute](/api/references/contribution-points) another command that displays current time in an information message. Contribution points are static declarations you make in the `package.json` [Extension Manifest](/api/references/extension-manifest) to extend VS Code, such as adding commands, menus, or keybindings to your extension.
+- Replace the `vscode.window.showInformationMessage` with another [VS Code API][def] call to show a warning **message.
 
 ## Debugging the extension
 
 VS Code's built-in debugging functionality makes it easy to debug extensions. Set a breakpoint by clicking the gutter next to a line, and VS Code will hit the breakpoint. You can hover over variables in the editor or use the **Run and Debug** view in the left to check a variable's value. The Debug Console allows you to evaluate expressions.
 
 <video loop muted playsinline controls title="Debug VS Code extension video">
-  <source src="/api/get-started/your-first-extension/debug.mp4" type="video/mp4">
-</video>
-
-You can learn more about debugging Node.js apps in VS Code in the [Node.js Debugging Topic](/docs/nodejs/nodejs-debugging).
+  <source src="/"video
+You can learn more about debugging Node.js apps in VS Code in the [Node.js Debugging Topic]
 
 ## Next steps
 
@@ -87,3 +85,8 @@ In this guide, we mainly describe how to develop VS Code extension with TypeScri
 ### UX Guidelines
 
 This is also a good time to review our [UX Guidelines](/api/ux-guidelines/overview) so you can start designing your extension user interface to follow the VS Code best practices.
+
+
+
+
+[def]: /api/references/vscode-api
