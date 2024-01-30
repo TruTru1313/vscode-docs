@@ -1,5 +1,5 @@
 ---
-Order: 7
+Order: 8
 Area: python
 TOCTitle: Testing
 ContentId: 9480bef3-4dfc-4671-a454-b9252567bc60
@@ -277,7 +277,7 @@ For example, the configuration below in the `launch.json` file disables the `jus
 ```json
 {
     "name": "Python: Debug Tests",
-    "type": "python",
+    "type": "debugpy",
     "request": "launch",
     "program": "${file}",
     "purpose": ["debug-test"],

@@ -1,5 +1,5 @@
 ---
-Order: 6
+Order: 7
 Area: python
 TOCTitle: Environments
 ContentId: 8fe4ca8b-fc70-4216-86c7-2c11b6c14cc6
@@ -147,7 +147,7 @@ run (see [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=1351
 
 The selected interpreter version will show on the right side of the Status Bar.
 
-![Status Bar showing a selected interpreter](images/environments/selected-interpreter-status-bar.png)
+![Status Bar showing a selected interpreter](images/shared/environment-in-status-bar.png)
 
 The Status Bar also reflects when no interpreter is selected.
 
